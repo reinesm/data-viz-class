@@ -22,6 +22,7 @@ var myChart = new Chart(ctx, {
   },
   options: {
     responsive: true,
+    indexAxis: 'y',
     plugins: {
       title: {
         display: true,
@@ -37,7 +38,11 @@ var myChart = new Chart(ctx, {
     },
     scales: {
       y: {
-        beginAtZero: true
+        beginAtZero: true,
+        stacked: true
+      },
+      x: {
+        stacked: true
       }
     }
   }
