@@ -24,7 +24,7 @@ var myChart = new Chart(ctx, {
             },
             subtitle: {
                 display: true,
-                text: 'Europe & Central Asia have the greatest average GPD per capita'
+                text: 'Europe & Central Asia have the greatest average GPD per capita.'
             }
         },
         scales: {
