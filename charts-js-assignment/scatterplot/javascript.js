@@ -98,7 +98,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
             plugins: {
                 title: {
                     display: true,
-                    text: "Top 10 most streamed Spotify songs' energy and danceability scores",
+                    text: "Top 10 most streamed Spotify songs' energy and danceability scores, as of Oct. 2021",
                     font: {
                         size: 18
                     }
