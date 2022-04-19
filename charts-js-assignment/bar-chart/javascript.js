@@ -25,7 +25,7 @@ var myChart = new Chart(ctx, {
           ]
         },
         {
-          label: 'Valance',
+          label: 'Valence',
           data: [33, 56, 73, 45, 17],
           backgroundColor: [
             '#800080'
@@ -45,10 +45,7 @@ var myChart = new Chart(ctx, {
             },
             subtitle: {
                 display: true,
-                text: 'The top five most streamed Spotify songs are ranked in popularity, from left to right. Blinding Lights is the most popular streamed song and ranks lowest in liveness, which is the presence of an audience in the recording, according to The Verge. Watermelon Sugar is the most energetic song, while Mood (feat. iann dior) ranks highest in valance and danceability. The Verge defines valance as musical positivenss conveyed by the song.',
-                font: {
-                  size: 10
-                }
+                text: ['The top five most streamed Spotify songs are ranked in popularity, from left to right.','Blinding Lights is the most popular streamed song and ranks lowest in liveness, which is the presence of an audience in the recording, according to The Verge.', 'Watermelon Sugar is the most energetic song, while Mood (feat. iann dior) ranks highest in valance and danceability. The Verge defines valence as musical positivenss conveyed by the song.'],
             }
         },
         scales: {
