@@ -87,8 +87,8 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 {x: 33, y: 78},
                 ],
                 label: "Memories",
-                borderColor: "rgba(139, 0, 139)",
-                backgroundColor: "rgba(139, 0, 139, 0.1)",
+                borderColor: "rgba(255, 127, 80)",
+                backgroundColor: "rgba(255, 127, 80, 0.1)",
                 borderWidth: 2
               },
             ]
