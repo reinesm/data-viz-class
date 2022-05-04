@@ -54,8 +54,12 @@ h2 {
   color: black;
 }
 
-footer {
-  background-color: #746282;
-  color: #746282;
+.footer {
+  margin: 20px 0 10px 0;
   width: 100%;
+  min-width: 1250px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #79ba9d;
+  color: #79ba9d;
 }
