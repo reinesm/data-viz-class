@@ -11,8 +11,8 @@ body {
   min-width: 1250px;
   font-size: 1.5em;
   text-transform: uppercase;
-  background-color: #746282;
-  color: #746282;
+  background-color: #79ba9d;
+  color: #79ba9d;
 }
 
 #content {
@@ -49,6 +49,7 @@ figure {
 
 h2 {
   font-family: 'Raleway Black', serif;
+  background-color: #79ba9d;
   font-size: 36px;
   color: black;
 }
@@ -56,7 +57,5 @@ h2 {
 footer {
   background-color: #746282;
   color: #746282;
-  margin: 20px 0 10px 0;
   width: 100%;
-  min-width: 1500px;
 }
